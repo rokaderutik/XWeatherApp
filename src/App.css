@@ -1,5 +1,6 @@
 .App {
     background-color: rgb(188, 246, 246);
-    height: 100vh;
+    min-height: 100vh;
     box-sizing: border-box;
+    padding-bottom: 2vh;
 }
