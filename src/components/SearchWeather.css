@@ -1,0 +1,50 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 15vh;
+    gap: 32px;
+}
+
+.input {
+    padding: 10px 16px;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.button {
+    padding: 10px 16px;
+    font-size: 20px;
+    background-color: green;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    margin-left: 16px;
+}
+
+.weather-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.weather-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    background-color: white;
+    border-radius: 8px;
+    width: 200px;
+    padding: 24px 0px;
+}
+
+.weather-card h4, p {
+    margin: 0px;
+}
