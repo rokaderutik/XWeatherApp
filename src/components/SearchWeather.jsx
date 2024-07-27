@@ -53,7 +53,7 @@ export default function SearchWeather() {
             </form>
 
             {
-                isApiCallGoing && <p>Loading data…</p>
+                isApiCallGoing && <p>Loading data...</p>
             }
             {
                 (weatherData && weatherData.current) &&
